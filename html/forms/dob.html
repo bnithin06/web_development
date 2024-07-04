@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new form</title>
+    <style>
+        td{
+            padding: 5px;
+        }
+        #firstname{
+            height: 2rem;
+            border-radius: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="firstname">Firstname</label> 
+        <input type="text" name="firstname" id="firstname" placeholder="firstname" minlength="3" maxlength="15"> <br><br>
+        <label for="lastname">Lastname</label> <input type="text" name="" id="lastname" placeholder="lastname" minlength="3" maxlength="15"> <br><br>
+        <label for="age">Age</label> <input type="number" name="" id="age" placeholder="Age" min="18" max="25"> <br><br>
+        <label for="dob">DOB</label> <input type="date" name="DOB" id="dob" placeholder="DOB"> <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="cancel">
+    </form>
+    <hr>
+    <form action="">
+        <table>
+            <tr>
+                <td> <label for="firstname">Firstname</label></td>
+                <td> <input type="text" name="firstname" id="firstname" placeholder="firstname" minlength="3" maxlength="15"></td>
+            </tr>
+            <tr>
+                <td> <label for="lastname">Lastname</label></td>
+                <td> <input type="text" name="" id="lastname" placeholder="lastname" minlength="3" maxlength="15"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td> <input type="number" name="" id="age" placeholder="Age" min="18" max="25"></td>
+            </tr>
+            <tr>
+                <td> <label for="dob">DOB</label></td>
+                <td> <input type="date" name="DOB" id="dob" placeholder="DOB"></td>
+            </tr>
+            <tr>
+                <th><input type="submit" value="submit"></th>
+                <th><input type="reset" value="cancel"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
