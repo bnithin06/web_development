@@ -1,0 +1,18 @@
+#abc{
+    width: 100px;
+    height: 100px;
+    /* color name */
+    background-color: bisque;
+    /* rgb value */
+    background-color: rgb(200,10, 100);
+    /* rgb value and alpha value */
+    background-color: rgba(100, 100, 100, 0.5);
+    /* hex value */
+    background-color: #0101ff;
+    /* hex value and alpha value */
+    background-color: #0011ff9a;
+    /* hsl value */
+    background-color: hsl(50deg,50%,70%);
+    /* hsla value */
+    background-color: hsla(50deg, 50%, 50%, 0.7);
+}

@@ -1,0 +1,19 @@
+body::-webkit-scrollbar{
+    background-color: red;
+    width: 100px;
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
+body::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(red,blue);
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-image:url(../../assests/images/Earth.png);
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+body::-webkit-inner-spin-button{
+    color: white;
+}

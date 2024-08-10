@@ -1,0 +1,10 @@
+body{
+    height: 5000px;
+}
+body::-webkit-scrollbar{
+    width: 50px;
+    border: 2px solid red;
+}
+body::-webkit-scrollbar-thumb{
+    border: 2px solid green;
+}

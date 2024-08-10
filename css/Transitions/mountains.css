@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* #mountain{
+    width: 100%;
+    height: 500px;
+    background-image: 
+    url(../../assests/images/LeftLargeMountain.png),
+    url(../../assests/images/RightLargeMountain.png),
+    url(../../assests/images/RightSmallMountain.png),
+    url(../../assests/images/LeftSmallMountain.png),
+    url(../../assests/images/mountain_sun.png),
+    url(../../assests/images/mountain_sky.png);
+    background-size:50%,60%,50%, 50%,200px,100% 100%;
+    background-repeat: no-repeat;
+    background-position: left,right,500px 10px,200px 10px,480px,center;
+} */
+
+#cartoon{
+    width: 100%;
+    height: 551px;
+    background-color: bisque;
+    /* background-image:
+    url(../../assests/images/Cartoon/CartoonHome.png),
+    url(../../assests/images/Cartoon/CartoonSky.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+}
+#cartoon:hover{
+    background-position:0px,0px 15px;
+}
+
+
+

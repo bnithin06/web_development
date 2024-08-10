@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* img{ 
+    transform: rotateX(30deg);
+    transform: rotateY(60deg);
+    transform: rotateZ(160deg);
+    transform: rotate(50deg);
+}
+*/
+button{
+    margin-left: 15px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#x-axis{
+    margin-left: 45%;
+}
+img{
+    width: 450px;
+    margin-left: 35%;
+    margin-top: 50px;
+    transition: all 5s;
+}
+#x-axis:hover~img{
+    transform: rotateX(160deg);
+}
+#y-axis:hover~img{
+    transform: rotateY(70deg);
+}
+#z-axis:hover~img{
+    transform: rotateZ(90deg);
+}
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: darkblue;
+} */

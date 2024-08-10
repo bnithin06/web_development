@@ -1,0 +1,21 @@
+#linear{
+    width: 150px;
+    height: 150px;
+    /* to top,
+     */
+    background-image: linear-gradient(to top,orange,white 50%,green);
+    margin-bottom:1rem;
+}
+
+#radial{
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(orange,white,green 50%); 
+    margin-bottom:1rem;
+}
+#conic{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    background-image:conic-gradient(orange,blue,white,green,hotpink,pink,yellow,whitesmoke);
+}

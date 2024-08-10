@@ -1,0 +1,83 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#parent{
+    width: 100%;
+    height:400px;
+    /* text-align: center; */
+    background-color: chocolate;
+}
+#Father ,#Babai{
+    width: 50%;
+    float: left;
+}
+#Father{
+    background-color: antiquewhite;
+    height: 85.5%;
+}
+#Babai{
+    background-color: cadetblue;
+    height: 85.5%;
+}
+#cousin1,#cousin2{
+    width: 50%;
+    float: left;
+    height: 80.2%;
+}
+#cousin1{
+    background-color: whitesmoke;
+}
+#cousin2{
+    background-color: brown;
+}
+#you,#sibling1,#sibling2{
+    width: 33.33%;
+    float: left;
+    height: 80.2%;
+}
+#you{
+    background-color:lightskyblue;
+}
+#sibling1{
+    background-color: burlywood;
+}
+#sibling2{
+    background-color: thistle;
+}
+/* child selector(>) */
+#parent>#Father{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*  decesdent selector (space) */
+#parent #cousin1{
+    background-color: black;
+    color: whitesmoke;
+}
+#parent #youheading{
+    color: whitesmoke;
+}
+
+/* father  */
+
+/* adjacent selector(+)*/
+/* it is only work in right direction */
+#cousin1+#cousin2{
+    background-color: chartreuse;
+}
+/* #Father+#babaiheading{
+    font-family:cursive;
+    background-color: blueviolet;
+
+    it will not work using adjacent selector because the h1 tag is not adjacent to father
+} */
+/* General selector(~) */
+/* it will also work in forward direction */
+
+#you~#sibling2{
+    background-color: cornflowerblue;
+    color: yellowgreen;
+}
+#sibling1~#you{
+    color: red;
+}

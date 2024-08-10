@@ -1,0 +1,96 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(hotpink,darkblue);
+}
+#one_value{
+    border-radius: 0.5rem;
+}
+#two_value{
+    border-radius: 0.25rem 0.5rem;
+}
+#four_value{
+    border-radius: 0.25rem 0.5rem 0.75rem 1rem;
+}
+#square{
+    /* background-image: radial-gradient(red,white,green,orange,blue,skyblue); */
+    background-image: conic-gradient(red,white,green,blue,orange,skyblue,hotpink);
+    border-radius: 50%;
+}
+
+#first_petal,#second_petal{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: linear-gradient(lightgreen,green);
+}
+#first_petal{
+    border-radius: 0% 100%;
+}
+#second_petal{
+    border-radius: 100% 0%;
+}
+
+/* four petals */
+#main{
+    width: 300px;
+    background-image: none;
+    
+}
+#first,#second,#three,#four{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(lightgreen,green);
+}
+#first,#second{
+    float: left;
+}
+#three,#four{
+    float: left;
+}
+#first{
+    border-radius: 0% 100%;
+}
+#second{
+    border-radius: 100% 0%;
+}
+#three{
+    border-radius: 100% 0%;
+}
+#four{
+    border-radius: 0% 100%;  
+}
+
+/* two petals */
+#first1,#second1{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(red,orange);
+
+}
+#first1{
+    border-radius: 0% 100%;
+    float: left;
+}
+#second1{
+    border-radius: 100% 0%;
+}
+
+#box1,#box2{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(violet,darkblue);
+    float: left;
+}
+#box1{
+    width: 50%;
+    height: 250px;
+    background-image: linear-gradient(red,white,red);
+    border-radius: 100px 100px 100px 100px;
+}
+#box2{
+    width: 50%;
+    height: 250px;
+    background-image: linear-gradient(darkblue,white,darkblue);
+    border-radius: 100px 0px 0px 100px;
+}

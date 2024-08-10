@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#a{
+    width: 500px;
+    height: 500px;
+    background-color: burlywood;
+}
+#ba,#ca{
+    width: 50%;
+    height: 80%;
+    background-color: azure;
+    float: left;
+}
+#aheading{
+    width: 100%;
+    height: 10%;
+}

@@ -1,0 +1,10 @@
+/* 
+syntax 
+   selector::pseudo-element{
+        properties
+   }
+ */
+
+#banana::marker{
+    content: '🍌';
+}

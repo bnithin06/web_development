@@ -1,0 +1,9 @@
+body{
+    width: 1000px;
+    height: 5000px;
+    background-image: url(../../assests/images/Sun.png),url(../../assests/images/Earth.png),url(../../assests/images/GalaxyStar.jpg);
+    background-repeat: no-repeat;
+    background-size:30%,40% ,100% 100%;
+    background-position: -150px -150px,center22,center;
+    background-attachment: fixed,scroll,scroll;
+}

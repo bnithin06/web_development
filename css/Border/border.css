@@ -1,0 +1,85 @@
+#solid{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+#dotted{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+}
+#dashed{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: black;
+}
+#inset{
+    border-width: 4px;
+    border-style: inset;
+    border-color: red; 
+}
+#outset{
+    border-width: 4px;
+    border-style: outset;
+    border-color: red; 
+}
+#groove{
+    border-width: 4px;
+    border-style: groove;
+    border-color: skyblue; 
+}
+#ridge{
+    border-width: 4px;
+    border-style: ridge;
+    border-color: black; 
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 300px;
+    border-width: 4px;
+    border-style: ridge;
+    border-color: red ;
+}
+
+/* shorthand properties */
+#shorthand{
+    border: 2px solid rosybrown;
+    width: fit-content;
+}
+/* mixed properties */
+/* 
+border-top-width: ;
+border-top-style 
+border-top-color
+*/
+#mixed-border{
+    border-top: 2px double darkcyan;
+    border-bottom: 2px dotted red;
+    border-right: 2px solid orange;
+    border-left: 2px hotpink groove;
+}
+h1{
+    width: fit-content;
+}
+h2{
+    width: 17%;
+}
+#india_count,#us_count,#china_count{
+    /* border: 2px solid red; */
+    float: left;
+}
+#india,#china,#us{
+    float: left;
+}
+#china{
+    border-right: 700px solid red;
+}
+#india{
+    border-right: 500px solid orange;
+}
+#us{
+    border-right: 300px solid green;
+}

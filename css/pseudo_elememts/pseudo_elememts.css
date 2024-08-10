@@ -1,0 +1,52 @@
+/* 
+syntax
+    selector::pseudo-elements{
+         properties
+    }
+ */
+
+input::placeholder{
+    color: darkcyan;
+}
+h1::first-letter{
+    color: darkblue;
+    font-size: 100px;
+}
+p::first-letter{
+    color: red;
+    font-size: 25px;
+}
+p::first-line{
+    color: darkblue;
+}
+#morning::first-letter{
+    font-size: 35px;
+    color: darkcyan;
+}
+#morning::before{
+    content: "✌️";
+}
+#morning::after{
+    content: "❤️☺️";
+
+}
+#banana::marker{
+    content: "🍌";
+}
+#orange::marker{
+    content: "🍊";
+}
+#apple::marker{
+    content: "🍎";
+}
+#jspiders_courses::marker{
+    color: orange;
+    content: "📚";
+}
+.courses_red::marker{
+    color: red;
+}
+#selection_para::selection{
+    color: darkblue;
+    background-color: darkcyan;
+}

@@ -1,0 +1,40 @@
+fieldset{
+    cursor: pointer;
+    width: 50%;
+    height: 500px;
+    margin-left: 30%;
+    border-radius: 0.5rem;
+    background-image: url(../../assests/images/Earth.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+
+}
+fieldset:hover>legend{
+    margin-left: 65%;
+    font-size: 2rem;
+    color: red;
+}
+fieldset:hover{
+    border:10px double darkblue;
+    background-size: 50%;
+    border-radius: 2rem;
+    background-position: left;
+}
+h1{
+    margin-left: 50%;
+    color: transparent;
+    margin-bottom: 50px;
+}
+p{
+    margin-left: 50%;
+    color: transparent;
+}
+fieldset:hover>h1{
+    color: darkblue;
+    background-color: skyblue;
+    border-radius: 0.25rem;
+}
+fieldset:hover>p{
+    color: darkblue;
+}

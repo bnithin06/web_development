@@ -1,0 +1,37 @@
+div{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+h1{
+    /* font-size: 40px; */
+    transition: all 5s;
+    padding: 0px;
+}
+h3{
+    display: inline;
+}
+div:hover>h1{
+    margin-left: 95%;
+}
+#cycle{
+    transition-timing-function: ease;
+    /* slow start and fast and slow end but faster */
+}
+#car{
+    transition-timing-function: ease-in;
+    transition-delay: 5s;
+    /* slow start and fast end */
+}
+#truck{
+    transition-timing-function: ease-out;
+    transition-delay: 10s;
+    /* slow start and fast end but slower */
+}
+#train{
+    transition-timing-function: ease-in-out;
+    transition-delay: 15s;
+}
+#aeroplane{
+    transition-timing-function: linear;
+    transition-delay: 20s;
+}

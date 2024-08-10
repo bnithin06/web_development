@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border-style: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding-top: 6.5%;
+    background-image: linear-gradient(to right,red,darkblue,green,yellow,orange,red);
+    background-size: 6000px;
+    transition: all 5s;
+}
+h1{
+    padding-left: 35%;
+    background-image: linear-gradient(to right,hotpink,white,black);
+    transition: all 5s;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+header:hover{
+    background-position: 6000px;
+}
+header:hover>h1{
+    background-position: 6000px;
+}

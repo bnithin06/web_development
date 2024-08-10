@@ -1,0 +1,36 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+#eliptical_radius,#circular_radius{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(red,blue);
+}
+#eliptical_radius{
+    border-radius: 0% 100% 51% 49% / 0% 0% 100% 100% ;
+}
+#circular_radius{
+    border-radius: 1rem;
+}
+#heart{
+    width: 300px;
+    height: 300px;
+    /* background-color: skyblue; */
+}
+#heart_part2{
+    width: 50%;
+    height: 100%;
+    border-radius: 34% 66% 100% 0% / 19% 30% 70% 81% ;
+    background-color: red;
+    float: left;
+}
+#heart_part1{
+    width: 50%;
+    height: 100%;
+    border-radius: 34% 66% 100% 100% / 28% 21% 100% 72% ;
+    background-color: red;
+    float: left;
+}
