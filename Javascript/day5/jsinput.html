@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsInput</title>
+    <style>
+        /*table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th,td{
+            border: 2px solid darkblue;
+        } */
+
+
+        #main{
+            width: 500px;
+            height: 5rem;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .otp{
+            width: 13%;
+            height: 4rem;
+            border: 2px solid darkblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <table>
+        <tr>
+            <th colspan="2">Employee</th>
+        </tr>
+        <tr>
+            <td>EmpName</td>
+            <td id="empname"></td> 
+        </tr>
+        <tr>
+            <td>EmpId</td>
+            <td id="empid"></td>
+        </tr>
+        <tr>
+            <td>EmpDesg</td>
+            <td id="empdesg"></td>
+        </tr>
+        <tr>
+            <td>EmpDept</td>
+            <td id="empdept"></td>
+        </tr>
+        <tr>
+            <td>EmpSal</td>
+            <td id="empsal"></td>
+        </tr>
+        <tr>
+            <td>EmpPhoNo</td>
+            <td id="empphono"></td>
+        </tr>
+    </table> -->
+
+        <form onsubmit="return verifyOtp()" >
+            <input type="text" maxlength="1" class="otp"  autofocus>
+            <input type="text" maxlength="1" class="otp">
+            <input type="text" maxlength="1" class="otp" >
+            <input type="text" maxlength="1" class="otp">
+            <input type="text" maxlength="1" class="otp">
+            <input type="text" maxlength="1" class="otp">
+            <input type="submit" value="VerifyOtp">
+            <button onclick="resend">resend otp ?</button>
+        </form>
+    <script src="./jsinput.js"></script>
+</body>
+</html>
