@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <script src="./hover.js" defer ></script>
+    <style>
+        #container{
+            width: 50%;
+            height: 500px;
+            background-image: url(./../../assests/images/999.webp);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: -200px,-200px;
+            transition:all 1s;
+
+        }
+        #container:hover{
+            background-position: 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div  id="container" onmouseover="fun()" onmouseout="fun()" ></div>
+ 
+</body>
+</html>

@@ -8,6 +8,7 @@
 // console.log(num1**num2);
 // console.log(num1%num2);
 
+
 // assignment operator
 
 // var num1=21;
@@ -43,8 +44,11 @@ var a=1;
 // console.log(a+=((a++)+=a));
 // console.log(a+=a++); 1+=1++
 // console.log(a++);
-console.log(a+=(a++));
+// console.log(a+=(a++));
+
 
 
 // about not ,bitwise not ,xor,right shift,left shift,unsigned right shift
+
+
 
