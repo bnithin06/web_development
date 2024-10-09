@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+}
+#containerleft,#containerright{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+#containerleft{
+    background-color: lightblue;
+}
+#containerright{
+    background-color:lightcyan;
+}
+.circleleft,.circleright{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+.circleright{
+    margin-left: 76%;
+}

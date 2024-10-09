@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 3rem;
+}
+body{
+    background-image: radial-gradient(black,skyblue);
+}
